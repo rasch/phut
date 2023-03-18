@@ -1,0 +1,24 @@
+{
+  "name": "phut",
+  "version": "0.1.0",
+  "description": "a command line interface for https://paste.sr.ht",
+  "bin": {
+    "phut": "phut.sh"
+  },
+  "files": [
+    "phut.sh"
+  ],
+  "keywords": [
+    "paste",
+    "pastebin",
+    "sourcehut",
+    "share",
+    "upload"
+  ],
+  "author": "Randy Schneck <i@rasch.co>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://git.sr.ht/~rasch/phut"
+  }
+}
