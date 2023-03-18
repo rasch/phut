@@ -328,6 +328,10 @@ create_paste() {
     set -- "$tmp/$base_name.$ext"
   fi
 
+  if test -z "$1"; then
+    error 5 "No file or stdin received"
+  fi
+
   files=
 
   for f in "$@"; do
