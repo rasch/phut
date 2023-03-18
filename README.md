@@ -5,6 +5,35 @@ https://paste.sr.ht API. `phut` is a POSIX shell script and has only been tested
 on Linux. It was specifically developed as a piece of my personal development
 environment (which uses Alpine Linux as a base).
 
+## Install
+
+```sh
+pnpm add --global phut
+```
+
+<details><summary>npm</summary><p>
+
+```sh
+npm install --global phut
+```
+
+</p></details>
+<details><summary>yarn</summary><p>
+
+```sh
+yarn global add phut
+```
+
+</p></details>
+<details><summary>curl</summary><p>
+
+```sh
+curl -o ~/.local/bin/phut https://git.sr.ht/~rasch/phut/blob/main/phut.sh
+chmod +x ~/.local/bin/phut
+```
+
+</p></details>
+
 ## Usage
 
 ```txt
