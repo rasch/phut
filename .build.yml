@@ -8,7 +8,7 @@ sources:
 environment:
   project: phut
 secrets:
-  - 2b8f0d2a-cab9-451d-b684-6b89582fb7b0 # NPM publish token
+  - ac7323fc-d1fd-4005-97fb-a8c058a0dc6f # NPM publish token
 tasks:
   - lint: |
       cd "$project"
